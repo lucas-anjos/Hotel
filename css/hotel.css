@@ -20,3 +20,43 @@ footer .card-body {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+#home1 {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 200px;
+  text-align: justify;
+}
+
+#home2 {
+  background-color: rgba(255, 255, 255, 100%);
+  padding: 40px;
+  text-align: justify;
+}
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 400px;
+  height: 350px;
+  margin: 0 10px;
+  transition: ease 1s;
+  opacity: 70%;
+}
+#imgHome img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+#imgLazer img {
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  cursor: pointer;
+  transition: ease 1s;
+}
+#imgLazer {
+  text-align: center;
+}
+
+#imgLazer img:hover {
+  opacity: 80%;
+}
